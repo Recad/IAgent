@@ -1,6 +1,6 @@
 const Agent = require('ai-agents').Agent;
 const getEmptyHex = require('./getEmptyHex');
-const Score = require("./boardScore.js");
+const Score = require("./BoardScore.js");//Board cambiado
 var pila = [];
 class HexAgent extends Agent {
 
